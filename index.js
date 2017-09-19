@@ -20,3 +20,13 @@ function appendKitten(name) {
   var newAr = [...kittens, name]
   return newAr
 }
+
+function prependKitten(name) {
+  var newAr = [name, ...kittens]
+  return newAR
+}
+
+function removeLastKitten() {
+  var newAr = kittens.unshift()
+  return newAr
+}
